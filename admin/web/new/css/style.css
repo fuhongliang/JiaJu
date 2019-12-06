@@ -1,0 +1,271 @@
+/*************************     logo    *************************************************/
+.logo-box {
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+
+.logo-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/*************************  side nav  ************************************/
+
+.left-fixed-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+.admin-sideNav-first .sideNav-menu .nav-icon {
+    margin-right: 5px;
+}
+
+/**************************         nav first       ********************************/
+.sideNav-menu a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 8px;
+    color: #626672;
+    box-sizing: content-box;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sideNav-menu {
+    padding: 0 8px;
+}
+
+.sideNav-menu li {
+    display: block;
+}
+
+.admin-sideNav-first {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 120px;
+    background-color: #343841;
+    z-index: 1222;
+    height: 100%;
+    overflow-y: scroll;
+    /*overflow-x: hidden;*/
+}
+::-webkit-scrollbar {
+    width : 10px;
+    height: 1px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background   : #343841;
+}
+::-webkit-scrollbar-track {
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background   : #ededed;
+}
+
+.admin-sideNav-first .sideNav-menu li.active > a {
+    background-color: #3c424e;
+    margin-right: -8px;
+    border-radius: 6px 0 0 6px;
+    color: #fff;
+}
+
+.admin-sideNav-first .sideNav-menu a:hover {
+    background-color: #3c424e;
+    color: #fff;
+}
+
+
+/**************************         nav second         ******************************/
+
+.admin-sideNav-first .sideNav-menu li.active .admin-sideNav-second {
+    display: block;
+}
+
+.admin-sideNav-second {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: #3C424e;
+    min-width: 120px; /* 110*/
+    z-index: 1200;
+    left: 120px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    display: none;
+    box-shadow: 4px 0px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.admin-sideNav-second .sideNav-menu {
+    margin-top: 50px;
+}
+
+
+.admin-sideNav-second .sideNav-menu li.current a {
+    background-color: #47B34F;
+    color: #fff;
+}
+
+.admin-sideNav-second .sideNav-menu a {
+    height: 32px;
+    line-height: 32px;
+    margin: 12px 0;
+}
+
+.admin-sideNav-second .sideNav-menu a:hover {
+    background-color: #47B34F;
+}
+
+
+/**************************  /. end side nav *******************/
+
+
+
+.hasLeft {
+    position: relative;
+    background-color: #f4f4f4;
+    padding-left: 240px; /* 230 */
+}
+
+
+
+
+.hasLeft .content {
+    background-color: #f4f4f4;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+body > .content .nav-tabs-custom > li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+body > .content .nav-tabs-custom > li > a {
+    color: #495057;
+    padding: 0
+}
+
+body > .content .nav-tabs-custom > li > a:hover, .nav-tabs-custom > li > a:focus {
+    background-color: inherit;
+    color: #47B34F
+}
+
+body > .content .nav-tabs-custom > li.active > a {
+    color: #47B34F;
+}
+
+
+/*********************************  主内容  ****************************/
+.pd-white-box {
+    padding: 1rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+}
+
+.pd-white-box .wrap {
+    padding:0 50px;
+
+}
+
+.search-box {
+    position: relative;
+    padding: 15px 0 0 15px;
+    background-color: #f4f7f9;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.table-act-row {
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.blue_new {
+    background-color: #47B34F !important;
+    border-color: #47B34F !important;
+}
+
+.custom-inline {
+    background-color: #f5f5f5;
+    width: 100%;
+    padding-top: 0;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.custom-inline .form-group {
+    position: relative;
+    margin: 0 15px 15px 0;
+}
+
+.custom-inline .form-group {
+    position: relative;
+    margin: 0 15px 15px 0;
+}
+.custom-inline .form-group .form-control {
+    padding: 0 10px;
+}
+
+.search-box .label-inline {
+    vertical-align: middle;
+}
+
+.label-inline {
+    margin-bottom: 0;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+    color: #494e52;
+}
+
+
+.data-content {
+    margin-top:10px;
+}
+
+#nav-tabContent {
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

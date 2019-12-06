@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="zuzhiqunzu" unicode="&#60376;" d="M960 192h-63.616v167.392a32 32 0 0 1-32 32H544V480h160a32 32 0 0 1 32 32V800a32 32 0 0 1-32 32H320a32 32 0 0 1-32-32v-288a32 32 0 0 1 32-32h160v-88.608H161.984a32 32 0 0 1-32-31.968L129.792 192H64a32 32 0 0 1-32-32v-192a32 32 0 0 1 32-32h192a32 32 0 0 1 32 32v192a32 32 0 0 1-32 32H193.792l0.16 135.392H480V192h-64a32 32 0 0 1-32-32v-192a32 32 0 0 1 32-32h192a32 32 0 0 1 32 32v192a32 32 0 0 1-32 32h-64v135.392h288.384V192H768a32 32 0 0 1-32-32v-192a32 32 0 0 1 32-32h192a32 32 0 0 1 32 32v192a32 32 0 0 1-32 32zM352 768h320v-224H352V768zM224 0H96v128h128v-128z m352 0h-128v128h128v-128z m352 0h-128v128h128v-128z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
